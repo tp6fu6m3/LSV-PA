@@ -1,3 +1,4 @@
+(a)
 The command "aig" simply convert the local functions of nodes into AIG form. However, the command "strash" will transform the whole network into AIG by one-level structural hashing, which might reduce some redundant AIG gates(for example, the AND gates with same fanin).
 
 Take 4bit_Adder for example. After reading the blif file, there are 28 cubes initially (majority has 3 cubes and XOR has 4 cubes, total 7*4 = 28 cubes). Afterwards, it becomes 52 aigs(13*4 = 52) when we type the "aig" command. In the end, it reduced to 44 ANDs by the command "strash".
@@ -5,3 +6,6 @@ Take 4bit_Adder for example. After reading the blif file, there are 28 cubes ini
 The command "bdd" simply convert the local functions of nodes into BDD form. However, the command "collapse" will build the global functions using BDD, in which each CO is produced by a node with CIs as it's fanin.
 
 Take 4bit_Adder for example. After typing the command "bdd", all of the 28 cubes are converted to 28 BDDs. And the numbers of nodes are still 8. However when we type the "collapse" command, it becomes 43 BDDs with 5 nodes. Here the 5 nodes represents the 5 COs.
+
+(b)
+Assume we already get the structurally hashed AIG(by command "strash"), we can use the command "logic" to convert it back to SOP forms.
