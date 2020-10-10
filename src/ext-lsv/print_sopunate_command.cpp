@@ -20,7 +20,7 @@ void parseSOP(const string &str, vector<int> &record, bool &flip)
 		switch(*idx){
 			case ' ':
 				++idx;
-				flip = (*idx == 1)? false: true;
+				flip = (*idx == '1')? false: true;
 				break;
 			case '\n':
 				newline = true;
@@ -48,7 +48,7 @@ void parseSOP(const string &str, vector<int> &record, bool &flip)
 			        newline = false;
 					nodeID = 0;
 				}
-				record[nodeID] = 3;
+				//record[nodeID] = 3;
 				++nodeID;
 				break;
 			default:
@@ -65,26 +65,17 @@ int Lsv_CommandPrintSOPUnate( Abc_Frame_t * pAbc, int argc, char ** argv )
 	int i;
 	Abc_NtkForEachNode(pNtk, pObj, i) {
 		cout << "node " << Abc_ObjName(pObj) << ":" << endl;
-/*
-		Abc_Obj_t* pFanin;
-		int j;
-		Abc_ObjForEachFanin(pObj, pFanin, j){
-			cout << "    " << Abc_ObjName(pFanin) << endl;
-			cout << "    " << Abc_ObjId(pFanin) << endl;
-
-		}
-*/
 
 		if (Abc_NtkHasSop(pNtk)) {
 			string str((char*)pObj->pData);
 			cout << "-------------------------" << endl;
-			cout << str << endl; 
-			cout << "-------------------------\n" << endl;
+			cout << str; 
+			cout << "-------------------------" << endl;
 
 			//parse sop
 			bool flip = false;
 			int faninNum = Abc_ObjFaninNum(pObj);
-			vector<int> record; // 0: init 1: +unite 2: -unite 3: bi-unite 
+			vector<int> record; // 0: init 1: +unite 2: -unite 3: binite 
 			record.reserve(faninNum);
 			record.resize(faninNum);
 			parseSOP(str, record, flip);
@@ -110,6 +101,7 @@ int Lsv_CommandPrintSOPUnate( Abc_Frame_t * pAbc, int argc, char ** argv )
 				}
             }
 
+			//print ans
 			if(!p_unate.empty()){
 				cout << "+unate inputs: ";
 				for(vector<char*>::iterator idx = p_unate.begin(); idx != p_unate.end(); ++idx){
@@ -134,38 +126,7 @@ int Lsv_CommandPrintSOPUnate( Abc_Frame_t * pAbc, int argc, char ** argv )
                 }
                 cout << endl;
             }
-
-/*
-			cout << "+unate inputs: ";
-		    Abc_Obj_t* pFanin;
-	        int j;
-		    Abc_ObjForEachFanin(pObj, pFanin, j){
-				if( (record[j] == 1 && !flip) || (record[j] == 2 && flip) ){
-					if(j == 0) cout << Abc_ObjName(pFanin);
-					else cout << "," << Abc_ObjName(pFanin);
-				}
-			}	
 			cout << endl;
-
-			cout << "-unate inputs: ";
-            Abc_ObjForEachFanin(pObj, pFanin, j){
-                if( (record[j] == 2 && !flip) || (record[j] == 1 && flip) ){
-                    if(j == 0) cout << Abc_ObjName(pFanin);
-					else cout << "," << Abc_ObjName(pFanin);
-                }
-            }
-            cout << endl;
-
-			cout << "binate inputs: ";
-            Abc_ObjForEachFanin(pObj, pFanin, j){
-                if(record[j] == 3){
-                    if(j == 0) cout << Abc_ObjName(pFanin);
-					else cout << "," << Abc_ObjName(pFanin);
-                }
-            }
-            cout << endl;
-*/			
-
 		}//end if sop
 	}//end for each node
 	
