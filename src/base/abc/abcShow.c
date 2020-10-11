@@ -358,11 +358,11 @@ void Abc_ShowFile( char * FileNameDot )
 
     // create the PostScript file name
     FileGeneric = Extra_FileNameGeneric( FileNameDot );
-    sprintf( FileNamePs,  "%s.ps",  FileGeneric ); 
+    sprintf( FileNamePs,  "%s.png",  FileGeneric ); 
     ABC_FREE( FileGeneric );
 
     // generate the PostScript file using DOT
-    sprintf( CommandDot,  "%s -Tps -o %s %s", pDotName, FileNamePs, FileNameDot ); 
+    sprintf( CommandDot,  "%s -Tpng -o %s %s", pDotName, FileNamePs, FileNameDot ); 
     RetValue = system( CommandDot );
     if ( RetValue == -1 )
     {
