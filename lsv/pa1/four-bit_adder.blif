@@ -1,51 +1,35 @@
 .model 4bit_adder
-.inputs a0 a1 a2 a3 b0 b1 b2 b3 c-in0
+.inputs a0 a1 a2 a3 b0 b1 b2 b3
 .outputs sum0 sum1 sum2 sum3 c-out3
-.names b0 c-in0 tb0 #toggle=XOR(b0,c-in0)
+.names a0 b0 sum0 #sum=XOR(a0,b0)
 10 1
 01 1
-.names a0 tb0 c-in0 sum0 #sum=XOR(a0,tb0,c-in0)
+.names a0 b0 c-out0 #c-out=AND(a0,b0)
+11 1
+.names a1 b1 c-out0 sum1 #sum=XOR(a1,tb1,c-out0)
 100 1
 010 1
 001 1
 111 1
-.names a0 tb0 c-in0 c-out0 #c-out=MAJ(a0,tb0,c-in0)
+.names a1 b1 c-out0 c-out1 #c-out=MAJ(a1,b1,c-out0)
 11- 1
 1-1 1
 -11 1
-.names b1 c-in0 tb1 #toggle=XOR(b1,c-in0)
-10 1
-01 1
-.names a1 tb1 c-out0 sum1 #sum=XOR(a1,tb1,c-out0)
+.names a2 b2 c-out1 sum2 #sum=XOR(a2,b2,c-out1)
 100 1
 010 1
 001 1
 111 1
-.names a1 tb1 c-out0 c-out1 #c-out=MAJ(a0,tb0,c-in0)
+.names a2 b2 c-out1 c-out2 #c-out=MAJ(a2,b2,c-out1)
 11- 1
 1-1 1
 -11 1
-.names b2 c-in0 tb2 #toggle=XOR(b0,c-in0)
-10 1
-01 1
-.names a2 tb2 c-out1 sum2 #sum=XOR(a0,tb0,c-in0)
+.names a3 b3 c-out2 sum3 #sum=XOR(a3,b3,c-out2)
 100 1
 010 1
 001 1
 111 1
-.names a2 tb2 c-out1 c-out2 #c-out=MAJ(a0,tb0,c-in0)
-11- 1
-1-1 1
--11 1
-.names b3 c-in0 tb3 #toggle=XOR(b0,c-in0)
-10 1
-01 1
-.names a3 tb3 c-out2 sum3 #sum=XOR(a0,tb0,c-in0)
-100 1
-010 1
-001 1
-111 1
-.names a3 tb3 c-out2 c-out3 #c-out=MAJ(a0,tb0,c-in0)
+.names a3 b3 c-out2 c-out3 #c-out=MAJ(a3,b3,c-out3)
 11- 1
 1-1 1
 -11 1
