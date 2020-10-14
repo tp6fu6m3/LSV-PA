@@ -1,0 +1,10 @@
+(a)
+  1.  
+    The command "aig" simply transforms the logic network into an AIG. 
+    On the other hand, the command "strash" transforms the logic network into an AIG by one-level structural hashing to ensure that no two AND gates have identical pairs of incoming edges.
+  2.
+    The command "bdd" simply transforms the logic network into a BDD
+    On the orther hand, the command "collapse" transforms the network by recursively composing the fanin nodes into the fanout nodes. Thus, it has the relatively smaller curcuit.
+
+(b)
+  use command "logic" 
