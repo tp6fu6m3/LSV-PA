@@ -1,0 +1,19 @@
+                           LSV PA1-2
+                                         B05902045  宋哲寬
+================================================================
+(a)
+1. 
+In the logic network in AIG(by command aig) it transform the node 
+functions to AIG(which is the local function) but it global is a 
+logic network
+In the structrually hashed AIG(by command strash) it transforms the
+combinational logic (the whole graph) into an AIG
+2. 
+In the the logic network in BDD(by command bdd) it do not expand all
+the nodes of the BDD network, but retain the logic network as the form
+of BDD.
+In the collapsed BDD(by command collapse) it expand all the nodes of
+the BDD network, until the primary input
+
+(b)
+logic 
