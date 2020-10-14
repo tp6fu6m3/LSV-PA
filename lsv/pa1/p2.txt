@@ -1,0 +1,5 @@
+(a)
+1. "aig" converts all the node functions in a logic network to AIG separately, while "strash" converts the whole network to AIG.
+2. "bdd" converts all the node functions in a logic network to BDD separately, while "collapse" converts the whole network to BDD.
+
+(b) "logic" command can convert a structurally hashed AIG to a logic network with SOPs.
