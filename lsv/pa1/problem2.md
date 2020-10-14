@@ -24,5 +24,5 @@
    - Differences: Command `bdd` simply converts node functions to BDD. On the other hand, command `collapse` converts the network by constructing global BDDs. Entering command `bdd`, we get "local" BDDs constructed with intermediate nodes. However, entering command `collapse` gives us "global" BDDs, which are functions of PIs.
 
 ###(b) Sequence of Commands
-- By entering command `logic`, we can convert the originally strashed AIG network to a logic network with node function expressed in SOP.
+- By entering command `logic` and then `sop`, we can convert the originally strashed AIG network to a logic network with node function expressed in SOP.
 
