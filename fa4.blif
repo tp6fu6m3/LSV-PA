@@ -1,0 +1,23 @@
+.model fa4
+.inputs a0 a1 a2 a3 b0 b1 b2 b3 cI
+.outputs s0 s1 s2 s3 cO
+.subckt fa1 a=a0 b=b0 ci=cI s=s0 co=co0
+.subckt fa1 a=a1 b=b1 ci=co0 s=s1 co=co1
+.subckt fa1 a=a2 b=b2 ci=co1 s=s2 co=co2
+.subckt fa1 a=a3 b=b3 ci=co2 s=s3 co=cO
+.end
+
+.model fa1
+.inputs a b ci
+.outputs s co
+.names a b ci s
+001 1
+010 1
+100 1
+111 1
+.names a b ci co
+011 1
+101 1
+110 1
+111 1
+.end
