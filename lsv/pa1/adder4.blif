@@ -17,6 +17,6 @@
 .outputs s0 s1 s2 s3 co
 .subckt adder1 a=a0 b=b0 cin=cin s=s0 cout=carry1
 .subckt adder1 a=a1 b=b1 cin=carry1 s=s1 cout=carry2
-.subckt adder1 a=a2 b=b2 cin=carry1 s=s2 cout=carry3
+.subckt adder1 a=a2 b=b2 cin=carry2 s=s2 cout=carry3
 .subckt adder1 a=a3 b=b3 cin=carry3 s=s3 cout=co
 .end
