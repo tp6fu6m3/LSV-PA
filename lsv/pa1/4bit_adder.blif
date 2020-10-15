@@ -5,8 +5,6 @@
 .subckt full_adder a=a1 b=b1 c_in=c1 s=s1 c_out=c2
 .subckt full_adder a=a2 b=b2 c_in=c2 s=s2 c_out=c3
 .subckt full_adder a=a3 b=b3 c_in=c3 s=s3 c_out=c4
-.outputs
-
 .end
 
 .model full_adder
