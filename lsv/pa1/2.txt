@@ -1,6 +1,6 @@
 a-1.
-Logic network in AIG stores internal representation of nodes with AIG.
-Structurally hashed AIG stores full network as AIG. i.e. has complemented edges, each node has same structure that only represents AND function and has fixed number of 2 fainins.
+Logic network in AIG stores node functions with AIG.
+Structurally hashed AIG stores full network as AIG. Each node is 2-input AND gate, and inverters are represented as complemented edges.
 
 a-2.
 Logic network in BDD stores node functions with BDD.
