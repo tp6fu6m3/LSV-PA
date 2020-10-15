@@ -4,20 +4,15 @@
 
 #### (b)
 
-1. visualize the network structure (command `show`) 
-Result:
+1. visualize the network structure (command `show`) result
 ![](https://i.imgur.com/IarZHUV.png)
 
-2. visualize the AIG (command `show`)
-Result:
+2. visualize the AIG (command `show`) result
 ![](https://i.imgur.com/09OYkYv.png)
 
 
-3. visualize the BDD (command `show_bdd`)
-
-Result:
+3. visualize the BDD (command `show_bdd`) result
 ![](https://i.imgur.com/ckfzlDS.png)
-
 
 ### 2. [ABC Boolean Function Representations]
 
