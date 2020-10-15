@@ -2,3 +2,7 @@
 
 ### Submission
 Please see hw1_part2.pdf 
+
+### File
+- hw1_part2.pdf: submit file
+- picture: all original picture in hw1_part2.pdf 
