@@ -3,8 +3,8 @@ Logic network in AIG stores internal representation of nodes with AIG.
 Structurally hashed AIG stores full network as AIG. i.e. has complemented edges, each node has same structure that only represents AND function and has fixed number of 2 fainins.
 
 a-2.
-Logic network in BDD stores internal representation of nodes with BDD.
-Collapsed BDD stores internal representation of nodes with BDD and collapse full network to 1 level.
+Logic network in BDD stores node functions with BDD.
+Collapsed BDD stores node functions with BDD. The full network is collapsed to 1 level.
 
 b.
 logic
