@@ -14,8 +14,10 @@ Result:
 
 
 3. visualize the BDD (command `show_bdd`)
+
 Result:
 ![](https://i.imgur.com/ckfzlDS.png)
+
 
 ### 2. [ABC Boolean Function Representations]
 
