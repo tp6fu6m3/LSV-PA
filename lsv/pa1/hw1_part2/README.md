@@ -1,4 +1,4 @@
 ## Programming Assignment 1 Part 2
 
-### File
+### Submission
 Please see hw1_part2.pdf 
