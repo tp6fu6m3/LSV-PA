@@ -1,0 +1,22 @@
+.model 4bitadder
+.inputs A3 A2 A1 A0 B3 B2 B1 B0 CIN 
+.outputs COUT S3 S2 S1 S0
+.subckt fulladder a=A0 b=B0 c-in=CIN     sum=S0 c-out=CARRY1 
+.subckt fulladder a=A1 b=B1 c-in=CARRY1  sum=S1 c-out=CARRY2
+.subckt fulladder a=A2 b=B2 c-in=CARRY2  sum=S2 c-out=CARRY3
+.subckt fulladder a=A3 b=B3 c-in=CARRY3  sum=S3 c-out=COUT
+.end
+
+.model fulladder 
+.inputs a b c-in 
+.outputs sum c-out 
+.names a b c-in sum
+100 1
+010 1
+001 1
+.names a b c-in c-out 
+11- 1
+1-1 1
+-11 1
+.end
+
