@@ -56,8 +56,10 @@ void Lsv_NtkPrintSopUnate(Abc_Ntk_t* pNtk) {
     Abc_ObjForEachFanin(pObj, pFanin, j) {
       if (unateTable[j][0] && unateTable[j][1]) 
         Vec_PtrPush( binateVec, pFanin );
-      else if (unateTable[j][0]) Vec_PtrPush( negUnateVec, pFanin );
-      else if (unateTable[j][1]) Vec_PtrPush( posUnateVec, pFanin );
+      else {
+        if (!unateTable[j][0]) Vec_PtrPush( posUnateVec, pFanin );
+        if (!unateTable[j][1]) Vec_PtrPush( negUnateVec, pFanin );
+      }
     }
 
     Vec_PtrSort( posUnateVec, (int (*)()) Lsv_sortCompare );
