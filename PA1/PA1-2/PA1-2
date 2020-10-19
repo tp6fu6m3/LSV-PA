@@ -1,0 +1,17 @@
+a).
+1a.CMD "aig" is used to convert a local function to AIG form
+
+1b.CMD "strash" using one-level hash structure to convert a logic network to AIG form. The structural hasing is a pure logic transformation without changing any latchs' positions and numbers. 
+
+
+
+2a. "bdd":the BDD is usually regarded as Reduced Order Binary Decision Diagrams. The command "bdd" convert boolean network to a ROBDD.
+2b. "collapse": collapse command will compress your BDD into global level. For example, the level of BDD using cmd "bdd" has four level for a 4-bit full adder, while after we collapse it, the level turns to 1. That means the output only depend on one layer of input.
+
+
+b). use a sequence of command to convert structural hasing AIG to logic function representing by SOP form.
+   Ans: Use "logic" to convert it, the description of logic is "Transforms the AIG into a logic network with the SOP representation of the two-input AND-gates."
+	Before converted, there has line and dashline in it. After transformed, the dashline turns into soild line.
+
+
+
