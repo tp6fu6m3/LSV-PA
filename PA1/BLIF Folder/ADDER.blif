@@ -1,0 +1,28 @@
+#signal bit full adder
+
+.model ADDER
+.inputs a b cin
+.outputs o cout
+
+
+# m is the XOR of a and b
+.names a b cin o
+100 1
+010 1
+001 1
+111 1
+
+#combain XOR term to 111 term
+
+#011 1
+#101 1
+#11- 1
+
+.names a b cin cout
+-11 1
+1-1 1
+11- 1
+
+.end
+
+
