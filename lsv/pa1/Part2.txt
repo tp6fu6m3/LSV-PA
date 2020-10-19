@@ -1,0 +1,7 @@
+(a)
+    (1)Command "aig" converts the representation of the internal nodes, the functions of internal nodes are represented by AIG after the conversion, however the whole circuit is still a logic network
+       Command "strash" converts the whole circuit into AIG form
+    (2)Command "bdd" converts the representation of the internal nodes, the functions of internal nodes are represented by BDD after the conversion, however the whole circuit is still a logic network
+       Command "collapse" converts the whole circuit into BDD
+(b)
+    A structurally hashed AIG can be converted into a logic network with node function expressed in SOP by a single command "logic"
