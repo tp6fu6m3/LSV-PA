@@ -1,0 +1,7 @@
+(a)
+1. Structrally hashed AIG is a combinational transformation, and will check whether an AND-gate with same fanins already exists. But AIG doesn't, AIG just converts node functions to AIG.
+
+2. Collapsed BDD is global BDDs, which each CO is produced by a node, whose fanins are CIs. But BDD just converts node functions to BDD.
+
+(b)
+logic
