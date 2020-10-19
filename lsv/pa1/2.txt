@@ -1,0 +1,10 @@
+a-1.
+Logic network in AIG stores node functions with AIG.
+Structurally hashed AIG stores full network as AIG. Each node is 2-input AND gate, and inverters are represented as complemented edges.
+
+a-2.
+Logic network in BDD stores node functions with BDD.
+Collapsed BDD stores node functions with BDD. The full network is collapsed to 1 level.
+
+b.
+logic
