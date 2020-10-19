@@ -1,0 +1,22 @@
+.model 4bits_adder
+.inputs a3 a2 a1 a0 b3 b2 b1 b0 c_in
+.outputs c_out s3 s2 s1 s0
+.subckt full_adder a=a0 b=b0 c-in=c_in sum=s0 c-out=c1
+.subckt full_adder a=a1 b=b1 c-in=c1 sum=s1 c-out=c2
+.subckt full_adder a=a2 b=b2 c-in=c2 sum=s2 c-out=c3
+.subckt full_adder a=a3 b=b3 c-in=c3 sum=s3 c-out=c_out
+.end
+
+.model full_adder
+.inputs a b c-in
+.outputs sum c-out
+.names a b c-in sum #sum=XOR(a,b,c-in)
+100 1
+010 1
+001 1
+111 1
+.names a b c-in c-out #c-out=MAJ(a,b,c-in)
+11- 1
+1-1 1
+-11 1
+.end
