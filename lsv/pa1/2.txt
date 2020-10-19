@@ -1,0 +1,11 @@
+(a)
+1.
+aig:retain the logic network and convert local logic function into aig
+strash: transforms combinational logic into an AIG including whole graph 
+
+2.
+bdd:retain the logic network and convert local logic function into bdd 
+collapse: transforms combinational logic into bdd including whole graph
+ 
+(b) 
+command: logic
