@@ -1,0 +1,9 @@
+The part2a.png shows the infomation of circuit.
+1.
+(1) aig v.s. strash
+a. aig : By command aig, the circuit will remain be stored in "logic" type and only convert the node of logic network into aig representation.
+b. strash : It will convert the whole circuit into "aig" type.
+(2) bdd v.s. collapse
+a. bdd : By command bdd, the circuit will remain be stored in "logic" type and only convert the node of logic network into bdd representation.
+b. collapse : It will convert the whole circuit into "bdd" type.
+2. use command "logic"
