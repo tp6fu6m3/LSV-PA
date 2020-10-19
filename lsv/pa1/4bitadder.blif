@@ -1,0 +1,22 @@
+.model 4bitadder
+.inputs a3 a2 a1 a0 b3 b2 b1 b0 cin
+.outputs s3 s2 s1 s0 cout
+.subckt fulladder A=a3 B=b3 CIN=c3 S=s3 COUT=cout
+.subckt fulladder A=a2 B=b2 CIN=c2 S=s2 COUT=c3
+.subckt fulladder A=a1 B=b1 CIN=c1 S=s1 COUT=c2
+.subckt fulladder A=a0 B=b0 CIN=cin S=s0 COUT=c1
+.end
+
+.model fulladder
+.inputs A B CIN
+.outputs S COUT
+.names A B CIN S    # XOR(A,B,CIN) 
+100 1
+010 1
+001 1
+111 1
+.names A B CIN COUT
+11- 1
+1-1 1
+-11 1
+.end
