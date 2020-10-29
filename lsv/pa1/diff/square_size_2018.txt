@@ -1,5 +1,5 @@
---- lsv/pa1/ref/square_size_2018.txt	2020-10-29 17:11:36.877394018 +0800
-+++ lsv/pa1/out/square_size_2018.txt	2020-10-29 17:11:36.921394643 +0800
+--- lsv/pa1/ref/square_size_2018.txt	2020-10-29 18:27:04.089518783 +0800
++++ lsv/pa1/out/square_size_2018.txt	2020-10-29 18:27:04.133519021 +0800
 @@ -1,7382 +1,12966 @@
  ABC command line: "read benchmarks/best_results/size/square_size_2018.blif; lsv_print_sopunate".
  

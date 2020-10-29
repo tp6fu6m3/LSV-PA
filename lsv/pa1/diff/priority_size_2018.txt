@@ -1,5 +1,5 @@
---- lsv/pa1/ref/priority_size_2018.txt	2020-10-29 17:11:37.293399920 +0800
-+++ lsv/pa1/out/priority_size_2018.txt	2020-10-29 17:11:37.325400374 +0800
+--- lsv/pa1/ref/priority_size_2018.txt	2020-10-29 18:27:04.501521013 +0800
++++ lsv/pa1/out/priority_size_2018.txt	2020-10-29 18:27:04.533521186 +0800
 @@ -1,273 +1,410 @@
  ABC command line: "read benchmarks/best_results/size/priority_size_2018.blif; lsv_print_sopunate".
  

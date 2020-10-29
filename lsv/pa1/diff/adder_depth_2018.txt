@@ -1,5 +1,5 @@
---- lsv/pa1/ref/adder_depth_2018.txt	2020-10-29 17:11:49.665575143 +0800
-+++ lsv/pa1/out/adder_depth_2018.txt	2020-10-29 17:11:49.697575596 +0800
+--- lsv/pa1/ref/adder_depth_2018.txt	2020-10-29 18:27:16.881588189 +0800
++++ lsv/pa1/out/adder_depth_2018.txt	2020-10-29 18:27:16.913588362 +0800
 @@ -1,1062 +1,1838 @@
  ABC command line: "read benchmarks/best_results/depth/adder_depth_2018.blif; lsv_print_sopunate".
  
