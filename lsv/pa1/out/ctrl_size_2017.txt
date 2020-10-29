@@ -1,0 +1,2 @@
+ABC command line: "read benchmarks/best_results/size/ctrl_size_2017.blif; lsv_print_sopunate".
+
