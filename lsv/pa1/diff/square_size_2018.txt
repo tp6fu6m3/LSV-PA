@@ -1,5 +1,5 @@
---- lsv/pa1/ref/square_size_2018.txt	2020-10-29 16:17:03.844744546 +0800
-+++ lsv/pa1/out/square_size_2018.txt	2020-10-29 16:17:03.888749932 +0800
+--- lsv/pa1/ref/square_size_2018.txt	2020-10-29 18:30:15.454588395 +0800
++++ lsv/pa1/out/square_size_2018.txt	2020-10-29 18:30:15.494588624 +0800
 @@ -8,93 +8,93 @@
  binate inputs: pi01,pi02
  node po004:

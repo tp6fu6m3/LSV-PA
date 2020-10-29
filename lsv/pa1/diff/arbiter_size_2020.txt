@@ -1,5 +1,5 @@
---- lsv/pa1/ref/arbiter_size_2020.txt	2020-10-29 16:17:03.072650033 +0800
-+++ lsv/pa1/out/arbiter_size_2020.txt	2020-10-29 16:17:03.104653952 +0800
+--- lsv/pa1/ref/arbiter_size_2020.txt	2020-10-29 18:30:14.658583821 +0800
++++ lsv/pa1/out/arbiter_size_2020.txt	2020-10-29 18:30:14.686583981 +0800
 @@ -172,10 +172,10 @@
  +unate inputs: [41],[86]
  -unate inputs: pi139,pi143,pi184

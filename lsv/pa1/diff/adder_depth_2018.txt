@@ -1,5 +1,5 @@
---- lsv/pa1/ref/adder_depth_2018.txt	2020-10-29 16:17:14.666055226 +0800
-+++ lsv/pa1/out/adder_depth_2018.txt	2020-10-29 16:17:14.698059063 +0800
+--- lsv/pa1/ref/adder_depth_2018.txt	2020-10-29 18:30:26.354651102 +0800
++++ lsv/pa1/out/adder_depth_2018.txt	2020-10-29 18:30:26.386651286 +0800
 @@ -3,60 +3,60 @@
  node po000:
  binate inputs: pi000,pi128

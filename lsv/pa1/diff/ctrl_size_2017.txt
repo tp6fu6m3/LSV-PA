@@ -1,5 +1,5 @@
---- lsv/pa1/ref/ctrl_size_2017.txt	2020-10-29 16:17:03.012642689 +0800
-+++ lsv/pa1/out/ctrl_size_2017.txt	2020-10-29 16:17:03.040646116 +0800
+--- lsv/pa1/ref/ctrl_size_2017.txt	2020-10-29 18:30:14.598583477 +0800
++++ lsv/pa1/out/ctrl_size_2017.txt	2020-10-29 18:30:14.626583638 +0800
 @@ -5,7 +5,7 @@
  binate inputs: opcode[3],opcode[4]
  node sel_reg_dst[1]:

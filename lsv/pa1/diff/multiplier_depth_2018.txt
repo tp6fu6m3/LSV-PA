@@ -1,5 +1,5 @@
---- lsv/pa1/ref/multiplier_depth_2018.txt	2020-10-29 16:17:14.874080179 +0800
-+++ lsv/pa1/out/multiplier_depth_2018.txt	2020-10-29 16:17:14.922085937 +0800
+--- lsv/pa1/ref/multiplier_depth_2018.txt	2020-10-29 18:30:26.554652254 +0800
++++ lsv/pa1/out/multiplier_depth_2018.txt	2020-10-29 18:30:26.606652553 +0800
 @@ -3,11 +3,11 @@
  node po000:
  +unate inputs: pi000,pi064

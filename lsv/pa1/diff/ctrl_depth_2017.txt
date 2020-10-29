@@ -1,5 +1,5 @@
---- lsv/pa1/ref/ctrl_depth_2017.txt	2020-10-29 16:17:14.730062904 +0800
-+++ lsv/pa1/out/ctrl_depth_2017.txt	2020-10-29 16:17:14.758066263 +0800
+--- lsv/pa1/ref/ctrl_depth_2017.txt	2020-10-29 18:30:26.414651446 +0800
++++ lsv/pa1/out/ctrl_depth_2017.txt	2020-10-29 18:30:26.442651609 +0800
 @@ -5,7 +5,7 @@
  binate inputs: opcode[3],opcode[4]
  node sel_reg_dst[1]:
