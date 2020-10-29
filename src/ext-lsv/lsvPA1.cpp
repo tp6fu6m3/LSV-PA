@@ -18,12 +18,7 @@ struct PackageRegistrationManager {
 } lsvPackageRegistrationManager;
 
 int cmp(Abc_Obj_t* obj1, Abc_Obj_t* obj2){
-  if (Abc_ObjId(obj1) < Abc_ObjId(obj2))
-    return -1;
-  else if (Abc_ObjId(obj1) == Abc_ObjId(obj2)) 
-    return 0;
-  else 
-    return 1;
+  return Abc_ObjId(obj1) < Abc_ObjId(obj2);
 }
 
 void Lsv_NtkPrintUnates(Abc_Ntk_t* pNtk){
@@ -104,7 +99,7 @@ void Lsv_NtkPrintUnates(Abc_Ntk_t* pNtk){
     printf("node %s:\n", Abc_ObjName(pObj));
     // Sort unate/binate Fanins of the i-th node
     if (N_pos_unate){
-      // std::sort(pos_unates, pos_unates + N_pos_unate, cmp);
+      std::sort(pos_unates, pos_unates + N_pos_unate, cmp);
 
       printf("+unate inputs: %s", Abc_ObjName(pos_unates[0]));
       for (int k = 1; k < N_pos_unate; k ++){
@@ -113,7 +108,7 @@ void Lsv_NtkPrintUnates(Abc_Ntk_t* pNtk){
       printf("\n");
     }
     if (N_neg_unate){
-      // std::sort(neg_unates, neg_unates + N_neg_unate, cmp);
+      std::sort(neg_unates, neg_unates + N_neg_unate, cmp);
 
       printf("-unate inputs: %s", Abc_ObjName(neg_unates[0]));
       for (int k = 1; k < N_neg_unate; k ++){
@@ -123,7 +118,7 @@ void Lsv_NtkPrintUnates(Abc_Ntk_t* pNtk){
 
     }
     if(N_binate){
-      // std::sort(binates, binates + N_binate, cmp);
+      std::sort(binates, binates + N_binate, cmp);
 
       printf("binate inputs: %s", Abc_ObjName(binates[0]));
       for (int k = 1; k < N_binate; k++){
