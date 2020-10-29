@@ -1,0 +1,2 @@
+ABC command line: "read benchmarks/best_results/depth/router_depth_2018.blif; lsv_print_sopunate".
+
