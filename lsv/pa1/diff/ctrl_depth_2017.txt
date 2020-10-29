@@ -1,5 +1,5 @@
---- lsv/pa1/ref/ctrl_depth_2017.txt	2020-10-29 16:12:31.694630941 +0800
-+++ lsv/pa1/out/ctrl_depth_2017.txt	2020-10-29 16:12:31.722630536 +0800
+--- lsv/pa1/ref/ctrl_depth_2017.txt	2020-10-29 17:11:49.729576050 +0800
++++ lsv/pa1/out/ctrl_depth_2017.txt	2020-10-29 17:11:49.757576445 +0800
 @@ -1,80 +1,110 @@
  ABC command line: "read benchmarks/best_results/depth/ctrl_depth_2017.blif; lsv_print_sopunate".
  

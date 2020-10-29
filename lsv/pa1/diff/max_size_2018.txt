@@ -1,5 +1,5 @@
---- lsv/pa1/ref/max_size_2018.txt	2020-10-29 16:12:17.342839630 +0800
-+++ lsv/pa1/out/max_size_2018.txt	2020-10-29 16:12:17.374839162 +0800
+--- lsv/pa1/ref/max_size_2018.txt	2020-10-29 17:11:35.853379488 +0800
++++ lsv/pa1/out/max_size_2018.txt	2020-10-29 17:11:35.885379942 +0800
 @@ -1,1765 +1,2090 @@
  ABC command line: "read benchmarks/best_results/size/max_size_2018.blif; lsv_print_sopunate".
  

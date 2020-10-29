@@ -1,5 +1,5 @@
---- lsv/pa1/ref/arbiter_size_2020.txt	2020-10-29 16:12:17.530836886 +0800
-+++ lsv/pa1/out/arbiter_size_2020.txt	2020-10-29 16:12:17.562836420 +0800
+--- lsv/pa1/ref/arbiter_size_2020.txt	2020-10-29 17:11:36.041382155 +0800
++++ lsv/pa1/out/arbiter_size_2020.txt	2020-10-29 17:11:36.073382609 +0800
 @@ -1,913 +1,1254 @@
  ABC command line: "read benchmarks/best_results/size/arbiter_size_2020.blif; lsv_print_sopunate".
  
