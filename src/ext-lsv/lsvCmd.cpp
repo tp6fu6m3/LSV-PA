@@ -61,22 +61,22 @@ usage:
   return 1;
 }
 
-bool sort_id_compare(Abc_Obj_t** a, Abc_Obj_t** b) {
-  return Abc_ObjId(*a) > Abc_ObjId(*b);
+int sort_id_compare(Abc_Obj_t** a, Abc_Obj_t** b) {
+  if(Abc_ObjId(*a) > Abc_ObjId(*b)) return 1;
+  else return -1;
 }
 
 void Lsv_PrintSopUnate(Abc_Ntk_t* pNtk) {
   Abc_Obj_t* node;
   int i;
-  int a = 1;
   Abc_NtkForEachNode(pNtk, node, i) {
     if(!Abc_NtkHasSop(pNtk)) continue;
+    if(!Abc_ObjFaninNum(node)) continue;
     printf("node %s:\n", Abc_ObjName(node));
     char* sop = (char*)node->pData;
     int unate_info_n = 0, unate_info_p = -1, phase_info_n = 0, phase_info_p = 0;
     int j = 0;
     int b;
-    // printf(sop);
     while(sop[j] != '\0') {
       if(sop[j] == ' ') {
         ++j;
@@ -117,7 +117,7 @@ void Lsv_PrintSopUnate(Abc_Ntk_t* pNtk) {
     assert( (unate_info_n & 0x1 ) == (unate_info_p & 0x1) );
     bool onset = unate_info_n & 0x1;
     Abc_ObjForEachFanin(node, pFanin, k){
-      nu = !( ( unate_info_n >> (nFanins - k) ) | 0x0 );
+      nu = ~( ( unate_info_n >> (nFanins - k) ) | (-1 << 1) );
       pu = ( unate_info_p >> (nFanins - k) & 0x1 );
       if(onset) {
         if(nu) Vec_PtrPush(unate_vars_n, pFanin);
@@ -158,7 +158,6 @@ void Lsv_PrintSopUnate(Abc_Ntk_t* pNtk) {
       }
       printf("\n");
     }
-    printf("\n");
 
     Vec_PtrFree(unate_vars_n);
     Vec_PtrFree(unate_vars_p);
