@@ -1,0 +1,2 @@
+ABC command line: "read benchmarks/best_results/size/mem_ctrl_size_2018.blif; lsv_print_sopunate".
+
