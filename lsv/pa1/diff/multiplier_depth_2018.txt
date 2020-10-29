@@ -1,5 +1,5 @@
---- lsv/pa1/ref/multiplier_depth_2018.txt	2020-10-29 16:06:08.528810554 +0800
-+++ lsv/pa1/out/multiplier_depth_2018.txt	2020-10-29 16:06:08.552810117 +0800
+--- lsv/pa1/ref/multiplier_depth_2018.txt	2020-10-29 18:22:00.219992565 +0800
++++ lsv/pa1/out/multiplier_depth_2018.txt	2020-10-29 18:22:00.247992693 +0800
 @@ -1,16580 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/multiplier_depth_2018.blif; lsv_print_sopunate".
  

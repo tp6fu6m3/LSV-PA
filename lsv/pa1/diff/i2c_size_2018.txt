@@ -1,5 +1,5 @@
---- lsv/pa1/ref/i2c_size_2018.txt	2020-10-29 16:05:59.624973361 +0800
-+++ lsv/pa1/out/i2c_size_2018.txt	2020-10-29 16:05:59.648972921 +0800
+--- lsv/pa1/ref/i2c_size_2018.txt	2020-10-29 18:21:51.503953071 +0800
++++ lsv/pa1/out/i2c_size_2018.txt	2020-10-29 18:21:51.527953180 +0800
 @@ -1,684 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/i2c_size_2018.blif; lsv_print_sopunate".
  

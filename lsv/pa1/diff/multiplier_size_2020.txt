@@ -1,5 +1,5 @@
---- lsv/pa1/ref/multiplier_size_2020.txt	2020-10-29 16:05:57.553011407 +0800
-+++ lsv/pa1/out/multiplier_size_2020.txt	2020-10-29 16:05:57.589010745 +0800
+--- lsv/pa1/ref/multiplier_size_2020.txt	2020-10-29 18:21:49.739945114 +0800
++++ lsv/pa1/out/multiplier_size_2020.txt	2020-10-29 18:21:49.763945222 +0800
 @@ -1,12386 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/multiplier_size_2020.blif; lsv_print_sopunate".
  

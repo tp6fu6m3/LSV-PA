@@ -1,5 +1,5 @@
---- lsv/pa1/ref/voter_depth_2020.txt	2020-10-29 16:06:07.956820978 +0800
-+++ lsv/pa1/out/voter_depth_2020.txt	2020-10-29 16:06:07.984820468 +0800
+--- lsv/pa1/ref/voter_depth_2020.txt	2020-10-29 18:21:59.695990183 +0800
++++ lsv/pa1/out/voter_depth_2020.txt	2020-10-29 18:21:59.723990309 +0800
 @@ -1,3240 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/voter_depth_2020.blif; lsv_print_sopunate".
  
