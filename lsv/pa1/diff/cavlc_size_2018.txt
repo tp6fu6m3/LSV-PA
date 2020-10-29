@@ -1,5 +1,5 @@
---- lsv/pa1/ref/cavlc_size_2018.txt	2020-10-29 16:16:15.186516547 +0800
-+++ lsv/pa1/out/cavlc_size_2018.txt	2020-10-29 16:16:15.214520293 +0800
+--- lsv/pa1/ref/cavlc_size_2018.txt	2020-10-29 18:29:39.390382141 +0800
++++ lsv/pa1/out/cavlc_size_2018.txt	2020-10-29 18:29:39.418382302 +0800
 @@ -1,199 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/cavlc_size_2018.blif; lsv_print_sopunate".
  

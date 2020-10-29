@@ -1,5 +1,5 @@
---- lsv/pa1/ref/priority_depth_2018.txt	2020-10-29 16:16:24.467748116 +0800
-+++ lsv/pa1/out/priority_depth_2018.txt	2020-10-29 16:16:24.495751800 +0800
+--- lsv/pa1/ref/priority_depth_2018.txt	2020-10-29 18:29:48.970436738 +0800
++++ lsv/pa1/out/priority_depth_2018.txt	2020-10-29 18:29:48.998436898 +0800
 @@ -1,389 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/priority_depth_2018.blif; lsv_print_sopunate".
  

@@ -1,5 +1,5 @@
---- lsv/pa1/ref/voter_size_2020.txt	2020-10-29 16:16:15.254525644 +0800
-+++ lsv/pa1/out/voter_size_2020.txt	2020-10-29 16:16:15.278528853 +0800
+--- lsv/pa1/ref/voter_size_2020.txt	2020-10-29 18:29:39.458382529 +0800
++++ lsv/pa1/out/voter_size_2020.txt	2020-10-29 18:29:39.490382710 +0800
 @@ -1,2911 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/voter_size_2020.blif; lsv_print_sopunate".
  

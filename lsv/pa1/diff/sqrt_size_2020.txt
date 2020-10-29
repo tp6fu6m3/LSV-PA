@@ -1,5 +1,5 @@
---- lsv/pa1/ref/sqrt_size_2020.txt	2020-10-29 16:16:16.050632119 +0800
-+++ lsv/pa1/out/sqrt_size_2020.txt	2020-10-29 16:16:16.074635324 +0800
+--- lsv/pa1/ref/sqrt_size_2020.txt	2020-10-29 18:29:40.326387470 +0800
++++ lsv/pa1/out/sqrt_size_2020.txt	2020-10-29 18:29:40.354387630 +0800
 @@ -1,7096 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/sqrt_size_2020.blif; lsv_print_sopunate".
  

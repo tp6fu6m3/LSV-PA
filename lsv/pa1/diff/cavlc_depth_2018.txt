@@ -1,5 +1,5 @@
---- lsv/pa1/ref/cavlc_depth_2018.txt	2020-10-29 16:16:16.498691941 +0800
-+++ lsv/pa1/out/cavlc_depth_2018.txt	2020-10-29 16:16:16.526695680 +0800
+--- lsv/pa1/ref/cavlc_depth_2018.txt	2020-10-29 18:29:40.770389998 +0800
++++ lsv/pa1/out/cavlc_depth_2018.txt	2020-10-29 18:29:40.798390157 +0800
 @@ -1,199 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/cavlc_depth_2018.blif; lsv_print_sopunate".
  

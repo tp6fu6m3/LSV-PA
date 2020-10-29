@@ -1,5 +1,5 @@
---- lsv/pa1/ref/ctrl_size_2017.txt	2020-10-29 16:16:15.062499958 +0800
-+++ lsv/pa1/out/ctrl_size_2017.txt	2020-10-29 16:16:15.090503703 +0800
+--- lsv/pa1/ref/ctrl_size_2017.txt	2020-10-29 18:29:39.274381481 +0800
++++ lsv/pa1/out/ctrl_size_2017.txt	2020-10-29 18:29:39.302381642 +0800
 @@ -1,80 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/ctrl_size_2017.blif; lsv_print_sopunate".
  
