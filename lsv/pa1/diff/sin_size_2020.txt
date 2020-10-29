@@ -1,5 +1,5 @@
---- lsv/pa1/ref/sin_size_2020.txt	2020-10-29 16:05:11.473873646 +0800
-+++ lsv/pa1/out/sin_size_2020.txt	2020-10-29 16:05:11.501873113 +0800
+--- lsv/pa1/ref/sin_size_2020.txt	2020-10-29 18:21:16.039795439 +0800
++++ lsv/pa1/out/sin_size_2020.txt	2020-10-29 18:21:16.063795544 +0800
 @@ -1,3082 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/sin_size_2020.blif; lsv_print_sopunate".
  

@@ -1,5 +1,5 @@
---- lsv/pa1/ref/arbiter_depth_2020.txt	2020-10-29 16:05:19.805715392 +0800
-+++ lsv/pa1/out/arbiter_depth_2020.txt	2020-10-29 16:05:19.829714937 +0800
+--- lsv/pa1/ref/arbiter_depth_2020.txt	2020-10-29 18:21:24.731833610 +0800
++++ lsv/pa1/out/arbiter_depth_2020.txt	2020-10-29 18:21:24.759833733 +0800
 @@ -1,5912 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/arbiter_depth_2020.blif; lsv_print_sopunate".
  

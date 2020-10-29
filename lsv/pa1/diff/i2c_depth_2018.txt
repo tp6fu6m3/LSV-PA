@@ -1,5 +1,5 @@
---- lsv/pa1/ref/i2c_depth_2018.txt	2020-10-29 16:05:14.137822931 +0800
-+++ lsv/pa1/out/i2c_depth_2018.txt	2020-10-29 16:05:14.165822399 +0800
+--- lsv/pa1/ref/i2c_depth_2018.txt	2020-10-29 18:21:18.851807755 +0800
++++ lsv/pa1/out/i2c_depth_2018.txt	2020-10-29 18:21:18.875807860 +0800
 @@ -1,768 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/i2c_depth_2018.blif; lsv_print_sopunate".
  

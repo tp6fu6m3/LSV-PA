@@ -1,5 +1,5 @@
---- lsv/pa1/ref/mem_ctrl_depth_2018.txt	2020-10-29 16:05:14.069824224 +0800
-+++ lsv/pa1/out/mem_ctrl_depth_2018.txt	2020-10-29 16:05:14.097823692 +0800
+--- lsv/pa1/ref/mem_ctrl_depth_2018.txt	2020-10-29 18:21:18.783807457 +0800
++++ lsv/pa1/out/mem_ctrl_depth_2018.txt	2020-10-29 18:21:18.811807580 +0800
 @@ -1,7322 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/mem_ctrl_depth_2018.blif; lsv_print_sopunate".
  

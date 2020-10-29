@@ -1,5 +1,5 @@
---- lsv/pa1/ref/int2float_depth_2018.txt	2020-10-29 16:05:19.741716603 +0800
-+++ lsv/pa1/out/int2float_depth_2018.txt	2020-10-29 16:05:19.765716149 +0800
+--- lsv/pa1/ref/int2float_depth_2018.txt	2020-10-29 18:21:24.671833346 +0800
++++ lsv/pa1/out/int2float_depth_2018.txt	2020-10-29 18:21:24.695833450 +0800
 @@ -1,79 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/int2float_depth_2018.blif; lsv_print_sopunate".
  

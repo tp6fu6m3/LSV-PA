@@ -1,5 +1,5 @@
---- lsv/pa1/ref/mem_ctrl_size_2018.txt	2020-10-29 16:05:11.841866633 +0800
-+++ lsv/pa1/out/mem_ctrl_size_2018.txt	2020-10-29 16:05:11.869866100 +0800
+--- lsv/pa1/ref/mem_ctrl_size_2018.txt	2020-10-29 18:21:16.399797015 +0800
++++ lsv/pa1/out/mem_ctrl_size_2018.txt	2020-10-29 18:21:16.427797137 +0800
 @@ -1,6696 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/mem_ctrl_size_2018.blif; lsv_print_sopunate".
  
