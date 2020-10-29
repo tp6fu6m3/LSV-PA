@@ -1,7 +1,7 @@
 Benchmark,Result
 benchmarks/best_results/size/multiplier_size_2020.blif,Fail
 benchmarks/best_results/size/bar_size_2015.blif,Fail
-benchmarks/best_results/size/adder_size_2016.blif,Fail
+benchmarks/best_results/size/adder_size_2016.blif,Pass
 benchmarks/best_results/size/max_size_2018.blif,Fail
 benchmarks/best_results/size/dec_size_2018.blif,Fail
 benchmarks/best_results/size/ctrl_size_2017.blif,Fail
@@ -39,4 +39,4 @@ benchmarks/best_results/depth/ctrl_depth_2017.blif,Fail
 benchmarks/best_results/depth/dec_depth_2018.blif,Fail
 benchmarks/best_results/depth/multiplier_depth_2018.blif,Fail
 benchmarks/best_results/depth/router_depth_2018.blif,Fail
-Score,0
+Score,2
