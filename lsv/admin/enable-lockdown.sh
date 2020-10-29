@@ -13,3 +13,4 @@ for student in "${students[@]}"; do
     fi
 done
 git sw master
+
