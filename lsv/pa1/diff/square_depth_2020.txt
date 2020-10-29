@@ -1,5 +1,5 @@
---- lsv/pa1/ref/square_depth_2020.txt	2020-10-29 16:04:07.983116146 +0800
-+++ lsv/pa1/out/square_depth_2020.txt	2020-10-29 16:04:08.023115343 +0800
+--- lsv/pa1/ref/square_depth_2020.txt	2020-10-29 18:20:45.347663186 +0800
++++ lsv/pa1/out/square_depth_2020.txt	2020-10-29 18:20:45.383663339 +0800
 @@ -2638,11 +2638,11 @@
  node [1021]:
  +unate inputs: pi13,pi46

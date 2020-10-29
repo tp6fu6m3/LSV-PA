@@ -1,5 +1,5 @@
---- lsv/pa1/ref/sqrt_size_2020.txt	2020-10-29 16:03:57.539327064 +0800
-+++ lsv/pa1/out/sqrt_size_2020.txt	2020-10-29 16:03:57.575326335 +0800
+--- lsv/pa1/ref/sqrt_size_2020.txt	2020-10-29 18:20:34.775618571 +0800
++++ lsv/pa1/out/sqrt_size_2020.txt	2020-10-29 18:20:34.811618721 +0800
 @@ -57,547 +57,547 @@
  -unate inputs: [2984],po61
  binate inputs: pi120,pi121,po60

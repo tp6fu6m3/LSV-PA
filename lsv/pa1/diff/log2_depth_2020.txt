@@ -1,5 +1,5 @@
---- lsv/pa1/ref/log2_depth_2020.txt	2020-10-29 16:03:58.335310921 +0800
-+++ lsv/pa1/out/log2_depth_2020.txt	2020-10-29 16:03:58.387309867 +0800
+--- lsv/pa1/ref/log2_depth_2020.txt	2020-10-29 18:20:35.563621880 +0800
++++ lsv/pa1/out/log2_depth_2020.txt	2020-10-29 18:20:35.615622098 +0800
 @@ -243,7 +243,7 @@
  -unate inputs: [1886]
  binate inputs: pi13,pi14

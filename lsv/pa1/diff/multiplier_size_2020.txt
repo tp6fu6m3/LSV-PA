@@ -1,5 +1,5 @@
---- lsv/pa1/ref/multiplier_size_2020.txt	2020-10-29 16:03:56.207354103 +0800
-+++ lsv/pa1/out/multiplier_size_2020.txt	2020-10-29 16:03:56.251353210 +0800
+--- lsv/pa1/ref/multiplier_size_2020.txt	2020-10-29 18:20:33.475613118 +0800
++++ lsv/pa1/out/multiplier_size_2020.txt	2020-10-29 18:20:33.519613303 +0800
 @@ -3895,67 +3895,67 @@
  -unate inputs: pi125
  binate inputs: pi062,pi063,pi124,pi126,pi127

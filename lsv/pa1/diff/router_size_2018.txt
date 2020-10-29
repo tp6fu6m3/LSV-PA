@@ -1,5 +1,5 @@
---- lsv/pa1/ref/router_size_2018.txt	2020-10-29 16:03:57.475328364 +0800
-+++ lsv/pa1/out/router_size_2018.txt	2020-10-29 16:03:57.499327876 +0800
+--- lsv/pa1/ref/router_size_2018.txt	2020-10-29 18:20:34.711618302 +0800
++++ lsv/pa1/out/router_size_2018.txt	2020-10-29 18:20:34.735618403 +0800
 @@ -1,10 +1,10 @@
  ABC command line: "read benchmarks/best_results/size/router_size_2018.blif; lsv_print_sopunate".
  

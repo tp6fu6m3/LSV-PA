@@ -1,5 +1,5 @@
---- lsv/pa1/ref/sqrt_depth_2018.txt	2020-10-29 16:04:00.143274296 +0800
-+++ lsv/pa1/out/sqrt_depth_2018.txt	2020-10-29 16:04:00.251272111 +0800
+--- lsv/pa1/ref/sqrt_depth_2018.txt	2020-10-29 18:20:37.319629262 +0800
++++ lsv/pa1/out/sqrt_depth_2018.txt	2020-10-29 18:20:37.423629699 +0800
 @@ -133,16 +133,16 @@
  +unate inputs: n26229,n26506
  -unate inputs: n199,n26407
