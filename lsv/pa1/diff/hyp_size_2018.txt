@@ -1,5 +1,5 @@
---- lsv/pa1/ref/hyp_size_2018.txt	2020-10-29 16:07:52.630983578 +0800
-+++ lsv/pa1/out/hyp_size_2018.txt	2020-10-29 16:07:52.658983104 +0800
+--- lsv/pa1/ref/hyp_size_2018.txt	2020-10-29 18:23:19.124362567 +0800
++++ lsv/pa1/out/hyp_size_2018.txt	2020-10-29 18:23:19.152362702 +0800
 @@ -1,92288 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/hyp_size_2018.blif; lsv_print_sopunate".
  

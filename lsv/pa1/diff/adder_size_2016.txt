@@ -1,5 +1,5 @@
---- lsv/pa1/ref/adder_size_2016.txt	2020-10-29 16:07:51.918995627 +0800
-+++ lsv/pa1/out/adder_size_2016.txt	2020-10-29 16:07:51.946995153 +0800
+--- lsv/pa1/ref/adder_size_2016.txt	2020-10-29 18:23:18.416359151 +0800
++++ lsv/pa1/out/adder_size_2016.txt	2020-10-29 18:23:18.444359287 +0800
 @@ -1,386 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/adder_size_2016.blif; lsv_print_sopunate".
  

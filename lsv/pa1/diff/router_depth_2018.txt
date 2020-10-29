@@ -1,5 +1,5 @@
---- lsv/pa1/ref/router_depth_2018.txt	2020-10-29 16:08:02.246821393 +0800
-+++ lsv/pa1/out/router_depth_2018.txt	2020-10-29 16:08:02.274820922 +0800
+--- lsv/pa1/ref/router_depth_2018.txt	2020-10-29 18:23:28.748409139 +0800
++++ lsv/pa1/out/router_depth_2018.txt	2020-10-29 18:23:28.772409255 +0800
 @@ -1,61 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/router_depth_2018.blif; lsv_print_sopunate".
  

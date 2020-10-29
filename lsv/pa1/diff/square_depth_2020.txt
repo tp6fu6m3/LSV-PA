@@ -1,5 +1,5 @@
---- lsv/pa1/ref/square_depth_2020.txt	2020-10-29 16:08:01.894827310 +0800
-+++ lsv/pa1/out/square_depth_2020.txt	2020-10-29 16:08:01.922826839 +0800
+--- lsv/pa1/ref/square_depth_2020.txt	2020-10-29 18:23:28.408407488 +0800
++++ lsv/pa1/out/square_depth_2020.txt	2020-10-29 18:23:28.436407624 +0800
 @@ -1,9146 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/square_depth_2020.blif; lsv_print_sopunate".
  
