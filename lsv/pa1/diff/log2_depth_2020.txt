@@ -1,5 +1,5 @@
---- lsv/pa1/ref/log2_depth_2020.txt	2020-10-29 16:06:46.212133420 +0800
-+++ lsv/pa1/out/log2_depth_2020.txt	2020-10-29 16:06:46.244132853 +0800
+--- lsv/pa1/ref/log2_depth_2020.txt	2020-10-29 18:22:26.452113139 +0800
++++ lsv/pa1/out/log2_depth_2020.txt	2020-10-29 18:22:26.476113250 +0800
 @@ -1,24115 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/log2_depth_2020.blif; lsv_print_sopunate".
  

@@ -1,5 +1,5 @@
---- lsv/pa1/ref/dec_size_2018.txt	2020-10-29 16:06:43.880174779 +0800
-+++ lsv/pa1/out/dec_size_2018.txt	2020-10-29 16:06:43.916174139 +0800
+--- lsv/pa1/ref/dec_size_2018.txt	2020-10-29 18:22:24.664104841 +0800
++++ lsv/pa1/out/dec_size_2018.txt	2020-10-29 18:22:24.692104970 +0800
 @@ -1,774 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/dec_size_2018.blif; lsv_print_sopunate".
  

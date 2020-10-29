@@ -1,5 +1,5 @@
---- lsv/pa1/ref/bar_depth_2015.txt	2020-10-29 16:06:47.972102251 +0800
-+++ lsv/pa1/out/bar_depth_2015.txt	2020-10-29 16:06:48.008101613 +0800
+--- lsv/pa1/ref/bar_depth_2015.txt	2020-10-29 18:22:27.872119736 +0800
++++ lsv/pa1/out/bar_depth_2015.txt	2020-10-29 18:22:27.900119867 +0800
 @@ -1,1551 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/bar_depth_2015.blif; lsv_print_sopunate".
  

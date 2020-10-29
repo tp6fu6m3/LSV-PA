@@ -1,5 +1,5 @@
---- lsv/pa1/ref/max_depth_2020.txt	2020-10-29 16:06:48.380095033 +0800
-+++ lsv/pa1/out/max_depth_2020.txt	2020-10-29 16:06:48.412094467 +0800
+--- lsv/pa1/ref/max_depth_2020.txt	2020-10-29 18:22:28.188121206 +0800
++++ lsv/pa1/out/max_depth_2020.txt	2020-10-29 18:22:28.216121337 +0800
 @@ -1,2606 +1,2 @@
  ABC command line: "read benchmarks/best_results/depth/max_depth_2020.blif; lsv_print_sopunate".
  

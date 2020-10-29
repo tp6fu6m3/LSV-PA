@@ -1,5 +1,5 @@
---- lsv/pa1/ref/int2float_size_2020.txt	2020-10-29 16:06:44.260168035 +0800
-+++ lsv/pa1/out/int2float_size_2020.txt	2020-10-29 16:06:44.296167397 +0800
+--- lsv/pa1/ref/int2float_size_2020.txt	2020-10-29 18:22:24.964106232 +0800
++++ lsv/pa1/out/int2float_size_2020.txt	2020-10-29 18:22:24.992106361 +0800
 @@ -1,66 +1,2 @@
  ABC command line: "read benchmarks/best_results/size/int2float_size_2020.blif; lsv_print_sopunate".
  
