@@ -1,11 +1,17 @@
 #include "base/abc/abc.h"
 #include "base/main/main.h"
 #include "base/main/mainInt.h"
+#include "lsvCmd.h"
 
-static int Lsv_CommandPrintNodes(Abc_Frame_t* pAbc, int argc, char** argv);
+#include <vector>
+#include <string>
+#include <iostream>
+using namespace std;
+
+static int Lsv_CommandPrintSopUnate(Abc_Frame_t* pAbc, int argc, char** argv);
 
 void init(Abc_Frame_t* pAbc) {
-  Cmd_CommandAdd(pAbc, "LSV", "lsv_print_nodes", Lsv_CommandPrintNodes, 0);
+  Cmd_CommandAdd(pAbc, "LSV", "lsv_print_sopunate", Lsv_CommandPrintSopUnate, 0);
 }
 
 void destroy(Abc_Frame_t* pAbc) {}
@@ -33,7 +39,123 @@ void Lsv_NtkPrintNodes(Abc_Ntk_t* pNtk) {
   }
 }
 
-int Lsv_CommandPrintNodes(Abc_Frame_t* pAbc, int argc, char** argv) {
+void LSv_NtkPrintUnate(Abc_Ntk_t* pNtk) {
+  Abc_Obj_t* pObj;
+  int i;
+  Abc_NtkForEachNode(pNtk, pObj, i) {
+
+    string pos_unate = "";
+    string neg_unate = "";
+    string binate = "";
+    
+
+    Abc_Obj_t* pFanin;
+    int j;
+    vector <FanIn> fanins;
+
+    Abc_ObjForEachFanin(pObj, pFanin, j) {
+      string s = Abc_ObjName(pFanin);
+      fanins.emplace_back(j, Abc_ObjId(pFanin), s);
+    }
+
+    
+    if (Abc_NtkHasSop(pNtk)) {
+      
+
+      string sop = (char*)pObj->pData;
+
+      int col = j + 3;
+      int row = sop.size()/col;
+      char sop_type = sop[col-2];
+      
+
+      for(int ii = 0; ii < col-3; ++ii){
+        for(int jj = 0; jj < row; ++jj){
+          char cc = sop[jj*col + ii];
+          int type = fanins[ii]._type;
+
+          if(type==0){
+            if(cc == '1'){
+              fanins[ii]._type = 1;
+              continue;
+            }else if(cc == '0'){
+              fanins[ii]._type = 2;
+              continue;
+            }
+          }else if(type==1){
+            if(cc == '0'){
+              fanins[ii]._type = 3;
+              break;
+            }
+          }else if(type==2){
+            if(cc == '1'){
+              fanins[ii]._type = 3;
+              break;
+            }
+          }else if(type==3){
+            break;
+          }
+        }
+      }
+
+      sort(fanins.begin(), fanins.end());
+
+      for(int ii = 0; ii < fanins.size(); ++ii){
+        if(fanins[ii]._type == 0){
+          pos_unate = pos_unate + fanins[ii]._name + ",";
+          neg_unate = neg_unate + fanins[ii]._name + ",";
+        }else if(fanins[ii]._type == 1){
+          pos_unate = pos_unate + fanins[ii]._name + ",";
+        }else if(fanins[ii]._type == 2){
+          neg_unate = neg_unate + fanins[ii]._name + ",";
+        }else if(fanins[ii]._type == 3){
+          binate = binate + fanins[ii]._name + ",";
+        }
+      }
+
+      // trim " ,"
+      pos_unate = pos_unate.substr(0, pos_unate.length()-1);
+      neg_unate = neg_unate.substr(0, neg_unate.length()-1);
+      binate = binate.substr(0, binate.length()-1);
+
+      // cout << sop.size() << ", " << col << ", " << row << endl;
+      // return;
+
+      if(pos_unate.length() > 0 || neg_unate.length() > 0 || binate.length() > 0 ){
+        printf("node %s:\n", Abc_ObjName(pObj));
+      }
+
+      if(sop_type=='0'){
+        if(neg_unate.length() > 0){
+          cout << "+unate inputs: " << neg_unate << endl;
+        }
+        if(pos_unate.length() > 0){
+          cout << "-unate inputs: " << pos_unate << endl;
+        }
+        if(binate.length() > 0){
+          cout << "binate inputs: " << binate << endl;
+        }
+      }else{
+        if(pos_unate.length() > 0){
+          cout << "+unate inputs: " << pos_unate << endl;
+        }
+        if(neg_unate.length() > 0){
+          cout << "-unate inputs: " << neg_unate << endl;
+        }
+        if(binate.length() > 0){
+          cout << "binate inputs: " << binate << endl;
+        }
+      }
+      
+
+    }
+    
+  }
+
+  return;
+}
+
+int Lsv_CommandPrintSopUnate(Abc_Frame_t* pAbc, int argc, char** argv) {
   Abc_Ntk_t* pNtk = Abc_FrameReadNtk(pAbc);
   int c;
   Extra_UtilGetoptReset();
@@ -49,7 +171,9 @@ int Lsv_CommandPrintNodes(Abc_Frame_t* pAbc, int argc, char** argv) {
     Abc_Print(-1, "Empty network.\n");
     return 1;
   }
-  Lsv_NtkPrintNodes(pNtk);
+  // Lsv_NtkPrintNodes(pNtk);
+  LSv_NtkPrintUnate(pNtk);
+  
   return 0;
 
 usage:
