@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/cavlc_depth_2018.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node po00:
 +unate inputs: n23,n29
 -unate inputs: pi7,n25
@@ -197,3 +198,5 @@ binate inputs: pi4
 node n89:
 +unate inputs: pi0,pi1,pi2,pi3
 -unate inputs: pi8,pi9
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

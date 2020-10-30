@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/i2c_size_2018.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node po015:
 +unate inputs: pi000
 -unate inputs: n291,n296,n297,n301
@@ -682,3 +683,5 @@ node po013:
 +unate inputs: pi130
 node po014:
 +unate inputs: pi128
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

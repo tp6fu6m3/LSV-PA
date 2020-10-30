@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/sqrt_size_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [2989]:
 -unate inputs: pi122,pi123
 node po62:
@@ -7094,3 +7095,5 @@ node [1]:
 node po00:
 +unate inputs: [0],[2],[1]
 -unate inputs: po62,[3]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

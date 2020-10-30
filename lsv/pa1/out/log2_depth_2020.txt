@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/log2_depth_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [3484]:
 +unate inputs: pi17,pi18,pi19
 -unate inputs: pi20
@@ -24113,3 +24114,5 @@ node po18:
 binate inputs: [40],[39],[38],[37]
 node po17:
 binate inputs: [38],[37]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

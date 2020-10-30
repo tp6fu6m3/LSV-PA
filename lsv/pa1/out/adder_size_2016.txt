@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/adder_size_2016.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node f[0]:
 binate inputs: a[0],b[0]
 node f[1]:
@@ -384,3 +385,5 @@ node cOut:
 binate inputs: a[127],b[127],n1201
 node f[127]:
 binate inputs: a[127],b[127],n1201
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/div_depth_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [20630]:
 +unate inputs: a[1],b[0],b[1]
 -unate inputs: a[0]
@@ -79155,3 +79156,5 @@ node [361]:
 binate inputs: [369],[26701]
 node remainder[58]:
 -unate inputs: [360],[210],[211],[311],[361]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/adder_depth_2018.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node po000:
 binate inputs: pi000,pi128
 node po001:
@@ -1060,3 +1061,5 @@ binate inputs: pi127,pi255,n812,n813,n841,n842
 node po128:
 +unate inputs: pi127,pi255,n813,n841,n842
 -unate inputs: n812
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

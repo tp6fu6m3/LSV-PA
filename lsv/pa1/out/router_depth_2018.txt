@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/router_depth_2018.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node po00:
 +unate inputs: pi26,n99
 -unate inputs: n92,n96
@@ -59,3 +60,5 @@ node n113:
 node po02:
 +unate inputs: n92,n96,n102
 -unate inputs: pi26,n103
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

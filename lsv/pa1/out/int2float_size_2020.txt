@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/int2float_size_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [13]:
 +unate inputs: pi02
 binate inputs: pi04,pi05,pi06,pi07,pi08
@@ -64,3 +65,5 @@ node po5:
 +unate inputs: pi09,pi10,[18]
 -unate inputs: pi07,[14]
 binate inputs: pi08
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

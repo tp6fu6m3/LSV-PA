@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/voter_size_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [5]:
 -unate inputs: pi0919,pi0920,pi0921,pi0922,pi0923,pi0924
 node [6]:
@@ -2909,3 +2910,5 @@ node [3]:
 node po0:
 +unate inputs: [1],[2],[0]
 -unate inputs: [4],[3]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

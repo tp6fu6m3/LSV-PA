@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/bar_depth_2015.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node result[0]:
 -unate inputs: n265,n286
 binate inputs: shift[6]
@@ -1549,3 +1550,5 @@ binate inputs: shift[6]
 node result[127]:
 -unate inputs: n710,n711
 binate inputs: shift[6]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

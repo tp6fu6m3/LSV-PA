@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/arbiter_size_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [0]:
 +unate inputs: pi115,pi116
 -unate inputs: pi243,pi244,pi245
@@ -911,3 +912,5 @@ node [192]:
 -unate inputs: pi252,pi253,pi254,[191]
 node po127:
 +unate inputs: pi127,pi255,[192]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

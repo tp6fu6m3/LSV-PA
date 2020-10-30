@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/router_size_2018.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node po00:
 +unate inputs: pi26,n99
 -unate inputs: n92,n97
@@ -57,3 +58,5 @@ node n112:
 node po02:
 +unate inputs: n92,n97,n103
 -unate inputs: pi26,n104
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

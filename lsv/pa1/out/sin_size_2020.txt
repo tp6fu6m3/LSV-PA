@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/sin_size_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [9]:
 binate inputs: pi22,pi23
 node [314]:
@@ -3080,3 +3081,5 @@ node po24:
 +unate inputs: [59],[56],[57]
 -unate inputs: [58]
 binate inputs: pi22,pi23
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/arbiter_depth_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node po000:
 +unate inputs: pi128,new_n436_,new_n510_
 -unate inputs: new_n388_,new_n505_
@@ -5910,3 +5911,5 @@ node new_n2474_:
 -unate inputs: pi214,pi215,pi226,pi227
 node new_n2475_:
 -unate inputs: pi191,pi192,pi212,pi213
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

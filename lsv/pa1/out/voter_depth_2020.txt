@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/voter_depth_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [1351]:
 -unate inputs: pi0667,pi0668,pi0669,pi0670,pi0671,pi0672
 node [1350]:
@@ -3238,3 +3239,5 @@ node po0:
 +unate inputs: [1432]
 -unate inputs: [1433],[1405]
 binate inputs: [1431],[1430],[1428]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

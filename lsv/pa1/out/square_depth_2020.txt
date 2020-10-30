@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/depth/square_depth_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node [947]:
 -unate inputs: pi60,pi61,pi62
 binate inputs: pi63
@@ -9144,3 +9145,5 @@ binate inputs: [200],[199],[198]
 node po039:
 +unate inputs: [95],[88],[96]
 -unate inputs: [93],[94]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

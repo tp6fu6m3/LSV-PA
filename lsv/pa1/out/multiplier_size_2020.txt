@@ -1,5 +1,6 @@
 ABC command line: "read benchmarks/best_results/size/multiplier_size_2020.blif; lsv_print_sopunate".
 
+<<<<<<< HEAD
 node po000:
 +unate inputs: pi000,pi064
 node po001:
@@ -12384,3 +12385,5 @@ node po127:
 binate inputs: [4789],[4790],[4785],[4788],[4786],[4784]
 node po125:
 binate inputs: [4785],[4786],[4784]
+=======
+>>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8
