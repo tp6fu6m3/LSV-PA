@@ -1,6 +1,5 @@
 ABC command line: "read benchmarks/best_results/depth/sqrt_depth_2018.blif; lsv_print_sopunate".
 
-<<<<<<< HEAD
 node asqrt[1]:
 +unate inputs: syn65
 node asqrt[2]:
@@ -79444,5 +79443,3 @@ node n27395:
 +unate inputs: syn127,n26411,n26448,n26452
 -unate inputs: n25666
 binate inputs: syn66
-=======
->>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

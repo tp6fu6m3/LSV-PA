@@ -1,6 +1,5 @@
 ABC command line: "read benchmarks/best_results/size/priority_size_2018.blif; lsv_print_sopunate".
 
-<<<<<<< HEAD
 node po0:
 +unate inputs: pi127,n138
 node n138:
@@ -272,5 +271,3 @@ node po7:
 -unate inputs: n183,n197,n210,n238
 node n238:
 -unate inputs: pi000,pi001,n180,n182,n228,po6
-=======
->>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

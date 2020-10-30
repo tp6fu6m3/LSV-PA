@@ -1,6 +1,5 @@
 ABC command line: "read benchmarks/best_results/depth/priority_depth_2018.blif; lsv_print_sopunate".
 
-<<<<<<< HEAD
 node po0:
 +unate inputs: n138,n155,n185
 -unate inputs: n151,n160,n162
@@ -388,5 +387,3 @@ node po7:
 node n287:
 +unate inputs: n220,n255
 -unate inputs: pi000,pi001,pi002,pi003
-=======
->>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

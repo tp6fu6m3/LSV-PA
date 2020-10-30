@@ -1,6 +1,5 @@
 ABC command line: "read benchmarks/best_results/size/div_size_2018.blif; lsv_print_sopunate".
 
-<<<<<<< HEAD
 node po000:
 +unate inputs: n3507,n3143
 -unate inputs: pi127,n3127
@@ -7773,5 +7772,3 @@ binate inputs: pi078,po031,n1698,n3383
 node n3484:
 -unate inputs: n2268
 binate inputs: pi004,pi064,pi065,po005,n3442
-=======
->>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

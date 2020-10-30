@@ -1,6 +1,5 @@
 ABC command line: "read benchmarks/best_results/depth/dec_depth_2018.blif; lsv_print_sopunate".
 
-<<<<<<< HEAD
 node po000:
 +unate inputs: pi7,n266,n267
 -unate inputs: pi4,pi5,pi6
@@ -773,5 +772,3 @@ node po254:
 node po255:
 +unate inputs: pi4,pi5,pi6,n273,n285
 -unate inputs: pi7
-=======
->>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

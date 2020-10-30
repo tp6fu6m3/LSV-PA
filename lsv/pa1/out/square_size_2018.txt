@@ -1,6 +1,5 @@
 ABC command line: "read benchmarks/best_results/size/square_size_2018.blif; lsv_print_sopunate".
 
-<<<<<<< HEAD
 node po002:
 +unate inputs: pi01
 -unate inputs: pi00
@@ -7381,5 +7380,3 @@ node po127:
 -unate inputs: n3428
 node po000:
 +unate inputs: pi00
-=======
->>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8

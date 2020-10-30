@@ -1,6 +1,5 @@
 ABC command line: "read benchmarks/best_results/depth/int2float_depth_2018.blif; lsv_print_sopunate".
 
-<<<<<<< HEAD
 node n19:
 -unate inputs: pi08,pi09,pi10
 node n20:
@@ -78,5 +77,3 @@ node po5:
 node po6:
 +unate inputs: pi04,pi05,pi06,pi07,n27
 -unate inputs: n19
-=======
->>>>>>> 5ca71eafee9dd88bfee0f179933ee575fc5a17f8
