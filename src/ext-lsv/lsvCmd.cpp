@@ -73,15 +73,15 @@ void Lsv_NtkPrintPoUnate(Abc_Ntk_t* pNtk){
     Cnf_DataWriteIntoSolverInt(pSat, pCnf, 1, 0);
     Cnf_DataWriteIntoSolverInt(pSat, pCnfDup, 1, 0);
 
-	int nVars = sat_solver_nvars(pSat);
+    int nVars = sat_solver_nvars(pSat);
     sat_solver_setnvars(pSat, nVars+PiNum);
     
-	// create assumptions
-	int pLits[PiNum+4];
+    // create assumptions
+    int pLits[PiNum+4];
     Abc_NtkForEachPi(pNtkCone, pObjPi, j){
-	  pLits[j] = toLitCond(nVars+j, 0);
-	  // adds clauses to assert the equivalence
-	  int PiId = Aig_ObjId((Aig_Obj_t* )pObjPi->pCopy);
+      pLits[j] = toLitCond(nVars+j, 0);
+      // adds clauses to assert the equivalence
+      int PiId = Aig_ObjId((Aig_Obj_t* )pObjPi->pCopy);
       sat_solver_add_buffer_enable(pSat, pCnf->pVarNums[PiId], pCnfDup->pVarNums[PiId], nVars+j, 0);
     }
     sat_solver_simplify(pSat);
@@ -125,7 +125,7 @@ void Lsv_NtkPrintPoUnate(Abc_Ntk_t* pNtk){
     if (Abc_ObjFaninC0(pObjPo))
       swap(Vec_posUnate, Vec_negUnate);
     
-	printf("node %s:\n", Abc_ObjName(pObjPo));
+    printf("node %s:\n", Abc_ObjName(pObjPo));
     PrintUnateInfo("+unate inputs", Vec_posUnate);
     PrintUnateInfo("-unate inputs", Vec_negUnate);
     PrintUnateInfo("binate inputs", Vec_binate);
